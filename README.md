@@ -82,7 +82,7 @@ flowchart LR
 
 ## 앱 다운로드
 
-<img src="./.github/assets/apk-download-qr.png" width="180" align="right" alt="APK 바로 다운로드 QR" />
+<img src="./.github/assets/download-page-qr.png" width="180" align="right" alt="APK 바로 다운로드 QR" />
 
 Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최신 APK 다운로드가 바로 시작된다.
 카카오톡 등 인앱 브라우저에서 열어도 외부 브라우저로 자동 전환돼 설치가 막히지 않는다.
