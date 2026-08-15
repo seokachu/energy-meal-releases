@@ -6,7 +6,7 @@
 형식은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를 따르고,
 버전은 [유의적 버전](https://semver.org/lang/ko/)을 따릅니다.
 
-## [미출시]
+## [1.1.0] — 2026-08-16
 
 ### 새로운 기능
 
