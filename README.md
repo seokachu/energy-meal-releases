@@ -10,7 +10,7 @@
 ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind%20CSS%204-06B6D4?logo=tailwindcss&logoColor=white)
 ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
-[![Android APK](https://img.shields.io/badge/Android%20APK-다운로드-3DDC84?logo=android&logoColor=white)](https://github.com/seokachu/energy-meal-releases/releases/latest)
+[![Android APK](https://img.shields.io/badge/Android%20APK-다운로드-3DDC84?logo=android&logoColor=white)](https://github.com/seokachu/energy-meal-releases/releases/latest/download/energy-meal.apk)
 
 | 구분 | 여느 메뉴 추천 | 에너지밀 |
 |---|---|---|
@@ -82,11 +82,11 @@ flowchart LR
 
 ## 앱 다운로드
 
-<img src="./.github/assets/apk-qr.png" width="180" align="right" alt="릴리즈 페이지 QR" />
+<img src="./.github/assets/apk-qr.png" width="180" align="right" alt="APK 바로 다운로드 QR" />
 
-Android 폰 카메라로 QR을 찍거나, 아래 링크에서 최신 APK를 받는다.
+Android 폰 카메라로 QR을 찍으면 최신 APK가 바로 다운로드된다.
 
-**[⬇ 최신 APK 받기](../../releases/latest)**
+**[⬇ 최신 APK 받기](../../releases/latest/download/energy-meal.apk)** · [버전별 릴리즈 보기](../../releases)
 
 - 배포된 웹을 담는 하이브리드 앱이라, 웹이 갱신되면 앱도 재설치 없이 함께 갱신된다
 - 설치 시 "출처를 알 수 없는 앱" 허용이 필요하다 (스토어 외 배포)
