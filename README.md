@@ -82,7 +82,7 @@ flowchart LR
 
 ## 앱 다운로드
 
-<img src="./.github/assets/apk-qr.png" width="180" align="right" alt="APK 바로 다운로드 QR" />
+<img src="./.github/assets/apk-download-qr.png" width="180" align="right" alt="APK 바로 다운로드 QR" />
 
 Android 폰 카메라로 QR을 찍으면 최신 APK가 바로 다운로드된다.
 
