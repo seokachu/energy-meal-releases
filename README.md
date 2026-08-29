@@ -33,7 +33,7 @@
 </p>
 
 전체 시안은 [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html)에서 —
-화면 10장과 디자인 시스템 5장을 배포된 서비스 안에서 그대로 열람할 수 있다.
+화면 16장과 디자인 시스템 5장을 배포된 서비스 안에서 그대로 열람할 수 있다.
 
 ---
 
@@ -47,7 +47,7 @@
 
 **시간대별 한 끼**
 - 접속 시각에 따라 아침 / 점심 / 저녁 탭이 기본 선택된다
-- 한식 · 분식 · 중식 · 일식 · 양식 · 아시안 **1,000개 메뉴**, 메뉴별 개별 컷의 AI 푸드 포토그래피 **964종**
+- 한식 · 분식 · 중식 · 일식 · 양식 · 아시안 **253개 메뉴**(프랜차이즈 포함), 메뉴별 개별 컷의 AI 푸드 포토그래피 **234종**
 - 이미지 평균 색상에서 배경 팔레트를 추출한다 — 화면 톤이 메뉴를 따라간다
 - 다시 추천하기 — 추천 순환 + 이미지 프리로드로 플리커 없이 전환되고, 결과는 그날 하루 유지된다
 
@@ -125,7 +125,7 @@ Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최
 | 문서 | 내용 |
 |---|---|
 | [기능명세서 (웹)](https://energy-meal-hybrid.vercel.app/docs) | 버전별 명세를 배포된 화면에서 읽는다 |
-| [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html) | 화면 10장 · 디자인 시스템 5장 |
+| [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html) | 화면 16장 · 디자인 시스템 5장 |
 | [명세 v1](https://energy-meal-hybrid.vercel.app/docs/spec-v1.html) | 출시 기능 전체 — 생일 규칙 기반 추천 엔진 (구버전) |
 | [명세 v2](https://energy-meal-hybrid.vercel.app/docs/spec-v2.html) | 사주팔자 · 오행 엔진 — 설계와 구현 결정 기록 (구버전) |
 | [명세 v3](https://energy-meal-hybrid.vercel.app/docs/spec-v3.html) | 술 · 안주 페어링 — 나이트 모드 (현행) |
