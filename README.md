@@ -33,7 +33,7 @@
 </p>
 
 전체 시안은 [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html)에서 —
-화면 16장과 디자인 시스템 5장을 배포된 서비스 안에서 그대로 열람할 수 있다.
+화면 17장과 디자인 시스템 5장을 배포된 서비스 안에서 그대로 열람할 수 있다.
 
 ---
 
@@ -60,6 +60,8 @@
 - 설치 배너 — 크로미움은 네이티브 프롬프트, iOS는 "공유 → 홈 화면에 추가" 가이드로 갈린다
 - Expo WebView 셸에 임베드되면 이를 감지해 전체 화면 레이아웃으로 전환한다
 - 앱은 끼니 시간(07:30 · 11:30 · 17:30)에 맞춰 알림을 보낸다
+- iOS 앱은 홈 화면 위젯으로 오늘의 메뉴를 보여 준다 — 누르면 그 끼니가 열리고, 위젯 안에서 다시 추천할 수 있다 (출시 예정)
+- 토스 앱 안에서도 미니앱으로 쓸 수 있다
 
 ---
 
@@ -94,7 +96,9 @@ Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최
 - APK로 설치했다면 추후 Google Play 버전으로 옮길 때 기존 앱을 삭제 후 재설치해야 한다 — 서명이 달라 덮어쓰기 업데이트가 되지 않는다
 
 **웹으로 쓰기** — 설치 없이 [브라우저](https://energy-meal-hybrid.vercel.app)에서 바로 쓴다. 홈 화면에 추가하면 앱처럼 뜬다.
-**iOS** — 스토어 외 앱 설치가 막힌 플랫폼이라, 웹에서 "공유 → 홈 화면에 추가"로 설치해 쓴다.
+**토스** — 토스 앱 검색창에서 "에너지밀"을 찾으면 설치 없이 미니앱으로 쓴다 (2026-11-16 출시).
+**iOS** — App Store 심사 중이다. 출시 전까지는 웹에서 "공유 → 홈 화면에 추가"로 설치해 쓴다.
+**Google Play** — 비공개 테스트 중이다. 정식 출시 전까지는 위 APK로 설치한다.
 
 <br clear="right" />
 
@@ -125,10 +129,10 @@ Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최
 | 문서 | 내용 |
 |---|---|
 | [기능명세서 (웹)](https://energy-meal-hybrid.vercel.app/docs) | 버전별 명세를 배포된 화면에서 읽는다 |
-| [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html) | 화면 16장 · 디자인 시스템 5장 |
+| [디자인 시안 (웹)](https://energy-meal-hybrid.vercel.app/docs/design.html) | 화면 17장 · 디자인 시스템 5장 |
 | [명세 v1](https://energy-meal-hybrid.vercel.app/docs/spec-v1.html) | 출시 기능 전체 — 생일 규칙 기반 추천 엔진 (구버전) |
-| [명세 v2](https://energy-meal-hybrid.vercel.app/docs/spec-v2.html) | 사주팔자 · 오행 엔진 — 설계와 구현 결정 기록 (구버전) |
-| [명세 v3](https://energy-meal-hybrid.vercel.app/docs/spec-v3.html) | 술 · 안주 페어링 — 나이트 모드 (현행) |
+| [명세 v2](https://energy-meal-hybrid.vercel.app/docs/spec-v2.html) | 사주팔자 · 오행 엔진 — 설계와 구현 결정 기록 (현행 · 추천 엔진) |
+| [명세 v3](https://energy-meal-hybrid.vercel.app/docs/spec-v3.html) | 술 · 안주 페어링 — 나이트 모드 · 토스 미니앱 · iOS 위젯 (현행) |
 | [CHANGELOG](./CHANGELOG.md) | 사용자에게 보이는 변경 이력 |
 | [개인정보처리방침](./docs/privacy.md) | 수집 항목 없음 — 전부 기기 안 |
 
