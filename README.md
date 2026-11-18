@@ -18,7 +18,14 @@
 | 갱신 | 새로고침마다 제각각 | 하루 한 번 고정 — 자정에 일진 따라 갱신 |
 | 내 데이터 | 서버 수집 | 기기 안에만 — 서버도 계정도 없음 |
 
-**바로 보기** — [서비스](https://energy-meal-hybrid.vercel.app) · [기능명세서](https://energy-meal-hybrid.vercel.app/docs) · [디자인 시안](https://energy-meal-hybrid.vercel.app/docs/design.html) · [앱 다운로드](#앱-다운로드)
+| 바로 가기 | |
+|---|---|
+| 🔗 서비스 링크 | https://energy-meal-hybrid.vercel.app |
+| 📄 기능명세서 | https://energy-meal-hybrid.vercel.app/docs |
+| 🎨 디자인 시안 | https://energy-meal-hybrid.vercel.app/docs/design.html |
+| 🍎 iOS 앱 | [App Store — 에너지밀](https://apps.apple.com/kr/app/id6835484934) (홈 화면 · 잠금 화면 위젯 포함) |
+| 💙 토스 미니앱 | 토스 앱 검색창에서 "에너지밀" (2026-11-16 출시) |
+| 🤖 Android 앱 | [최신 APK 받기](https://energy-meal-hybrid.vercel.app/download) · Google Play 비공개 테스트 중 |
 
 ---
 
@@ -62,7 +69,7 @@
 - 앱은 끼니 시간(07:30 · 11:30 · 17:30)에 맞춰 알림을 보낸다
 - iOS 앱은 홈 화면 위젯으로 오늘의 메뉴를 보여 준다 — 누르면 그 끼니가 열리고, 위젯 안에서 다시 추천할 수 있다 (출시)
 - 잠금 화면 위젯도 있다 — 시계 위 한 줄 · 동그라미 · 직사각형 중에 골라 지금 끼니 메뉴를 바로 본다 (출시)
-- 토스 앱 안에서도 미니앱으로 쓸 수 있다
+- 토스 앱 안에서도 설치 없이 미니앱으로 쓸 수 있다 — 같은 웹을 토스용 번들로 묶어 제공한다
 
 ---
 
@@ -98,7 +105,7 @@ Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최
 
 **웹으로 쓰기** — 설치 없이 [브라우저](https://energy-meal-hybrid.vercel.app)에서 바로 쓴다. 홈 화면에 추가하면 앱처럼 뜬다.
 **토스** — 토스 앱 검색창에서 "에너지밀"을 찾으면 설치 없이 미니앱으로 쓴다 (2026-11-16 출시).
-**iOS** — App Store에서 "에너지밀"을 검색해 설치한다 (출시). 홈 화면 · 잠금 화면 위젯도 함께 쓸 수 있다.
+**iOS** — [App Store](https://apps.apple.com/kr/app/id6835484934)에서 설치한다 (출시). 홈 화면 · 잠금 화면 위젯도 함께 쓸 수 있다.
 **Google Play** — 비공개 테스트 중이다. 정식 출시 전까지는 위 APK로 설치한다.
 
 <br clear="right" />
@@ -148,7 +155,8 @@ Android 폰 카메라로 QR을 찍으면 다운로드 페이지가 열리고 최
 | Styling | Tailwind CSS 4 · Motion |
 | 폼 · 검증 | React Hook Form + Zod |
 | 사주 엔진 | lunar-typescript · korean-lunar-calendar — 만세력 대조 golden test로 검증 |
-| App | Expo (React Native WebView 셸) |
+| App | Expo (React Native WebView 셸) · iOS 위젯 SwiftUI + WidgetKit |
+| 토스 미니앱 | Apps in Toss Web Framework (정적 내보내기 번들) |
 | 테스트 | Vitest · React Testing Library · Playwright |
 | 배포 | Vercel — 서버 없는 100% 클라이언트 사이드 |
 
